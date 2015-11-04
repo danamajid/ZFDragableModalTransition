@@ -123,7 +123,7 @@
 
         [UIView animateWithDuration:[self transitionDuration:transitionContext]
                               delay:0
-             usingSpringWithDamping:0.8
+             usingSpringWithDamping:1.0
               initialSpringVelocity:0.1
                             options:UIViewAnimationOptionCurveEaseOut
                          animations:^{
@@ -181,7 +181,7 @@
 
         [UIView animateWithDuration:[self transitionDuration:transitionContext]
                               delay:0
-             usingSpringWithDamping:0.8
+             usingSpringWithDamping:1.0
               initialSpringVelocity:0.1
                             options:UIViewAnimationOptionCurveEaseOut
                          animations:^{
